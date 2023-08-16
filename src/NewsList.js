@@ -15,7 +15,7 @@ const NewsList = () => {
   useEffect(() => {
     const API_KEY = process.env.REACT_APP_API_KEY;
 
-    // Construct API URL based on the selected category
+    // API URL based on the selected category
     let apiUrl = `https://newsapi.org/v2/top-headlines?country=us&category=${selectedCategory}&apiKey=${API_KEY}`;
 
     axios.get(apiUrl)
