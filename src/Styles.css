@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 body, h1, h2, p {
     margin: 0;
     padding: 0;
@@ -122,7 +122,7 @@ body, h1, h2, p {
     padding: 20px;
   }
   
-  /* ... your other styles ... */
+
   /* NewsList.css */
 .news-list {
     display: grid;
@@ -176,5 +176,5 @@ body, h1, h2, p {
     background-color: #005a8d;
   }
   
-  /* ... your other styles ... */
+ 
   
